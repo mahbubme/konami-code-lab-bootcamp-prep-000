@@ -14,7 +14,7 @@ const codes = [
 let index = parseInt(0);
 
 function init() {
-  window.addEventListener("keydown", function(event){
+  document.body.addEventListener("keydown", function(event){
     const key = event.key;
     console.log(codes[i]);
     
@@ -22,7 +22,7 @@ function init() {
       index++;
       
       if( index === codes.length ){
-        window.alert("Hurray!");
+        alert("Hurray!");
       }
     }
     else{
