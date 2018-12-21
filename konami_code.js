@@ -10,3 +10,25 @@ const codes = [
   "b",
   "a"
 ];
+
+let index=0;
+
+function init() {
+  window.addEventListener("keydown", function(event){
+    const key= event.key;
+    
+    console.log(event.which);
+    
+    if( key === codes[index] ){
+      index++;
+      
+      if( index === codes.length ){
+        window.alert("Hurray!");
+      }
+    }
+    else{
+      index=0;
+    }
+  })
+}
+init();
