@@ -6,10 +6,11 @@ function init() {
     
     console.log(event.which);
     
-    if(key===code[index]){
+    if( key===code[index] ){
       index++;
-      if(index===code.length){
-        alert("Cheat activated, you cheater")
+      
+      if( index===code.length ){
+        alert("Hurray!")
       }
     }
     else{
