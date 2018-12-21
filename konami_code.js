@@ -16,10 +16,10 @@ let index = 0;
 function init() {
   window.addEventListener("keydown", function(event){
     const key= event.key;
-    
-    console.log(key);
+    console.log(codes);
     
     if( key === codes[index] ){
+      console.log(key);
       index++;
       
       if( index === codes.length ){
