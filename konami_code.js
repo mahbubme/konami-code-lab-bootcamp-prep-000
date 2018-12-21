@@ -1,4 +1,17 @@
-let index=0;
+const codes = [
+  "ArrowUp",
+  "ArrowUp",
+  "ArrowDown",
+  "ArrowDown",
+  "ArrowLeft",
+  "ArrowRight",
+  "ArrowLeft",
+  "ArrowRight",
+  "b",
+  "a"
+];
+
+let index = 0;
 
 function init() {
   window.addEventListener("keydown", function(event){
