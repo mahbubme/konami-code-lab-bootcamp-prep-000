@@ -4,7 +4,7 @@ let index=0;
 
 function init() {
     const key=parseInt(event.which);
-    console.log(event.which);
+    console.log(event.key);
     if(key===code[index]){
       index++;
       if(index===code.length){
