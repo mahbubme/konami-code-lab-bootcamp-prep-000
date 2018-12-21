@@ -10,7 +10,3 @@ const codes = [
   "b",
   "a"
 ];
-
-function init() {
-  // your code here
-}
